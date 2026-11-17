@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Starsparkled Night City Skin
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @description  Replace town map and building-list images
 // @match        *://*.illyriad.co.uk/*
 // @match        *://elgea.illyriad.co.uk/*
@@ -53,8 +53,8 @@
         '03-roads.png':              '',
         '03-squarebushes.png':       'https://raw.githubusercontent.com/Sheogorath-Kvatch/Sheo-Script/refs/heads/main/Images/square%20night%20bushes.png',
         '03-fountain.png':           '',
-        '03-wall_upper.png':         '',
-        '03-wall_lower.png':         '',
+        '03-wall_upper.png':         'https://raw.githubusercontent.com/Sheogorath-Kvatch/Starsparkled-Script/refs/heads/main/updates/lanterned%20upper%20wall.png',
+        '03-wall_lower.png':         'https://raw.githubusercontent.com/Sheogorath-Kvatch/Starsparkled-Script/refs/heads/main/updates/lanterned%20lower%20wall.png',
         'lumberwood.png':            'https://raw.githubusercontent.com/Sheogorath-Kvatch/Sheo-Script/refs/heads/main/Images/night%20trees.png',
         '03-castle_off.png':         CASTLE,
         '03-lumberjack_off.png':     '',
@@ -71,7 +71,7 @@
         '03-farm_6_off.png':         '',
         '03-farm_7_off.png':         '',
         '03-farm_5_c_off.png':       '',
-        'build.gif':                 'https://64.media.tumblr.com/7204639a1101e07c4c7e44bf0a7e92c4/tumblr_mpfa8r3tzF1s5jjtzo1_500.gif'
+        'build.gif':                 'https://img1.picmix.com/output/stamp/normal/3/6/1/8/2348163_3858c.gif'
     };
 
     const BUILDINGS = {
